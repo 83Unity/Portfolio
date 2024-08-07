@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ekta - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="home">
+        <nav>
+            <div class="left">Ekta's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Info</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection" id="about">
+            <div class="leftSection">
+                <img src="images/bg1.png" alt="">
+            </div>
+            <div class="rightSection">
+                Hi, my name is <span>Ekta</span>
+                <div>and I am a passionate Web Developer</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section class="secondSection" id="projects">
+            <h1>Projects</h1>
+            <div class="project-tile">
+                <div class="project">
+                    <a href="/">
+                        <div class="project-image">
+                            <img class="projects" src="images/project1.png" alt="penguin.jpg">
+                        </div>
+                        <p class="project-title">Penguin Using CSS</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="/">
+                        <div class="project-image">
+                            <img class="projects" src="images/project2.png" alt="wheel.jpg">
+                        </div>
+                        <p class="project-title">Ferris Wheel Using CSS</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="/">
+                        <div class="project-image">
+                            <img class="projects" src="images/project3.jpg" alt="">
+                        </div>
+                        <p class="project-title">Netflix Home Page Clone</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="/">
+                        <div class="project-image">
+                            <img class="projects" src="images/project4.png" alt="">
+                        </div>
+                        <p class="project-title">Product Landing Page</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="/">
+                        <div class="project-image">
+                            <img class="projects" src="images/project5.png" alt="">
+                        </div>
+                        <p class="project-title">Portfolio</p>
+                    </a>
+                </div>
+                <div class="project">
+                    <a href="/">
+                        <div class="project-image">
+                            <img class="projects" src="images/project6.png" alt="">
+                        </div>
+                        <p class="project-title">Calculator</p>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+        <section class="skill">
+            <h3>Skills</h3>
+            <div class="skills">
+                <img src="images/html.png" alt="">
+                <img src="images/css.png" alt="">
+                <img class="js" src="images/javascript.png" alt="">
+                <img src="images/Python.png" alt="">
+                <img src="images/R.png" alt="">
+            </div>
+        </section>
+    </main>
+
+    <footer id="contact">
+        <h2>Let's Connect</h2>
+        <ul>
+            <li><img src="images/Email_icon.png">Email - ektasandhu08@gmail.com</li>
+            <li><img src="images/phone.svg">Phone - 9835375664</li>
+            <li><img src="images/linkedin.png"><a href="https://www.linkedin.com/in/ekta-sandhu-1379a6271">LinkedIn</a>
+            </li>
+        </ul>
+        <p>Copyright &#169; Design and Built by Ekta Sandhu | All rights reserved</p>
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer', '<i>Web</i> Designer', 'DSA', 'Machine Learning'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
